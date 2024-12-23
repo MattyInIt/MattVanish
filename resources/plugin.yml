@@ -1,0 +1,15 @@
+name: MattVanish
+version: '1.0-SNAPSHOT'
+main: org.mattplugins.mattVanish.MattVanish
+api-version: '1.20'
+authors: [ matt ]
+website: https://www.spigotmc.org/members/mattplugins.2188339/
+commands:
+  vanish:
+    description: Toggles vanish mode
+    usage: /vanish
+    permission: mattvanish.vanish
+permissions:
+  mattvanish.vanish:
+    description: Allows the player to use the /vanish command
+    default: op
